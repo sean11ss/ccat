@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Cat sitting service in Glasgow West End. Professional Cat sitting for your little furry friend. Contact today or visit the website">
+    <title>West End Edinburgh Cat Sitters</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        header.top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            height: 80px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            padding: 0 2rem;
+        }
+        .logo {
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 12px; /* lifts logo slightly from bottom edge */
+        }
+        .logo img {
+            height: 48px;          /* adjust this value to change logo size */
+            width: auto;
+            max-width: 200px;
+            object-fit: contain;
+            display: block;
+        }
+        nav.folder-tabs {
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 12px; /* same padding as logo → bottoms align perfectly */
+        }
+        nav.folder-tabs ul {
+            list-style: none;
+            display: flex;
+            gap: 2.2rem;           /* controls horizontal space between logo and nav + between nav items */
+        }
+        nav.folder-tabs a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.05rem;
+            font-weight: 500;
+            padding-bottom: 4px;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.2s;
+        }
+        nav.folder-tabs a:hover,
+        nav.folder-tabs a.active {
+            border-bottom: 2px solid #E67E22; /* burnt orange accent if you want to match your theme */
+        }
+        main {
+            padding-top: 100px; /* gives space below the fixed 80px header */
+        }
+        section.location {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+            padding: 0 2rem;
+        }
+        section.location p {
+            flex: 1 1 45%;
+            min-width: 280px;
+            max-width: 500px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #333;
+            background: #fdfdfd;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 1.8rem 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        section.location img {
+            flex: 1 1 45%;
+            max-width: 50%;
+            height: auto;
+            min-width: 280px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="top-nav">
+    <div class="logo">
+        <img src="cat3.jpg" alt="West End Cat Sitting Logo - Crowned Cat">
+    </div>
+
+    <nav class="folder-tabs">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="getintouch.html">Get in Touch</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="location">
+        <p>
+            Born and raised in the West End, I'm a dedicated cat sitter who's always had cats of my own. Currently studying at university, my parents usually trusted me to look after their cat. One day I wasn't there and there was no one to sit with the cat – all their friends didn't have cats, and the ones who did weren't available. They had to hire someone to catsit. <br><br>
+            Although I was a good cat sitter – immediately friendly and easy to reach – it wasn't free, but it was better service than having someone who doesn't really like cats looking after them. I was uncertain about being a catsitter at first. I knew I was good at cat sitting, but I didn't know how well I could talk to customers, and setting up my own little business on the side was not something I'd done before. <br><br>
+            Full disclosure: I only sit cats and I have nothing against dogs – it's just that I'm more comfortable sitting cats, sorry! I'm really glad I set up this business and became a catsitter. It changed me – it allowed me to be confident in setting up other part-time businesses, and I realised how confident I was as I met new people here in the West End.
+        </p>
+        <img src="cat.jpg.webp" alt="Cute cat being looked after in West End of Glasgow">
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 West End Edinburgh Cat Sitters</p>
+</footer>
+
+</body>
+</html>

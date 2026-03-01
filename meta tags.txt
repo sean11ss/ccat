@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whisker Care Cat Sitting</title>
+  
+  <!-- ===== Homepage / LocalBusiness Schema ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PetStore",
+    "name": "Whisker Care Cat Sitting",
+    "image": "https://example.com/cat-home.jpg",
+    "url": "https://example.com",
+    "telephone": "+1-555-555-5555",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main Street",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "postalCode": "10001",
+      "addressCountry": "US"
+    },
+    "description": "Professional cat sitting services for happy, healthy cats in New York.",
+    "sameAs": [
+      "https://www.facebook.com/whiskercare",
+      "https://www.instagram.com/whiskercare"
+    ]
+  }
+  </script>
+
+  <!-- ===== About / Service Schema ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Cat Sitting",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Whisker Care Cat Sitting",
+      "image": "https://example.com/cat-about.jpg",
+      "url": "https://example.com",
+      "telephone": "+1-555-555-5555",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main Street",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10001",
+        "addressCountry": "US"
+      }
+    },
+    "description": "Professional cat sitting services including feeding, playtime, and overnight care."
+  }
+  </script>
+
+  <!-- ===== Location / Contact Schema ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Whisker Care Cat Sitting",
+    "image": "https://example.com/cat-location.jpg",
+    "url": "https://example.com",
+    "telephone": "+1-555-555-5555",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main Street",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "postalCode": "10001",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.7128",
+      "longitude": "-74.0060"
+    }
+  }
+  </script>
+
+  <!-- ===== Reviews Schema ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Whisker Care Cat Sitting",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "25"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": "Alice M.",
+        "datePublished": "2026-01-10",
+        "reviewBody": "Great cat sitter! My cat loved the care and playtime.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": "John D.",
+        "datePublished": "2026-02-05",
+        "reviewBody": "Very reliable and loving service. Highly recommend!",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Whisker Care Cat Sitting</h1>
+  </header>
+
+  <main>
+    <!-- ===== Index / Home Section ===== -->
+    <section id="home">
+      <h2>About Me</h2>
+      <img src="https://example.com/cat-home.jpg" alt="Happy cat">
+      <p>Professional cat sitting services for happy, healthy cats in New York.</p>
+    </section>
+
+    <!-- ===== About / Services Section ===== -->
+    <section id="about">
+      <h2>Our Services</h2>
+      <img src="https://example.com/cat-about.jpg" alt="Cat playing">
+      <p>We provide feeding, playtime, overnight care, and personalized attention for your cats.</p>
+    </section>
+
+    <!-- ===== Location / Contact Section ===== -->
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>Phone: +1-555-555-5555</p>
+      <p>Address: 123 Main Street, New York, NY 10001</p>
+    </section>
+
+    <!-- ===== Reviews Section ===== -->
+    <section id="reviews">
+      <h2>Client Reviews</h2>
+      <div class="review">
+        <strong>Alice M.</strong> - "Great cat sitter! My cat loved the care and playtime."
+      </div>
+      <div class="review">
+        <strong>John D.</strong> - "Very reliable and loving service. Highly recommend!"
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Whisker Care Cat Sitting</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
